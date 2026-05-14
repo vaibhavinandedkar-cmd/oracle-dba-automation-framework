@@ -11,9 +11,9 @@ echo "================================================"
 
 cd /home/oracle/oracle-dba-automation-framework
 
-# Run Health Check
 python3 src/health_check.py
+python3 src/tablespace_monitor.py
 
 echo "================================================"
-echo "✅ Framework Execution Completed - $(date)"
+echo "✅ Framework Execution Completed Successfully - $(date)"
 echo "================================================"
