@@ -1,0 +1,7 @@
+email:
+  enabled: true
+  smtp_server: smtp.gmail.com
+  smtp_port: 587
+  from_email: vaibhavinandedkar@gmail.com
+  to_email: your_team_email@gmail.com
+  password: ""          # Use App Password for Gmail
